@@ -32,7 +32,7 @@ while data.replay:
     hidden_word = functions.get_hidden_word(rdm_word)
     chances = data.chances
 
-    print("Le mot a deviner est {} ({})".format(rdm_word, hidden_word))
+    print("Le mot a deviner est {}".format(hidden_word))
     print("Chances restantes : ", chances)
 
     while chances > 0 and rdm_word != hidden_word:
